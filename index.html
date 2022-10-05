@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="video.css">
+    <script src="video.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    
+</head>
+<body>
+    <div class="header">
+        Computer Society Of India
+    </div>
+    <div class="kushank">
+    <video src="csi_video.mp4"
+        type="video/mp4"  class="csi" 
+        loop style="border: solid; width: 800px;">
+    </video>
+    </div>
+  
+    <script>
+  
+        
+        let curser = document.querySelector(".csi")
+  
+        
+        curser.addEventListener("mouseover", function (e) {
+            curser.play();
+        })
+  
+        
+        curser.addEventListener("mouseout", function (e) {
+            curser.pause();
+        })
+    </script>
+</body>
+</html>
