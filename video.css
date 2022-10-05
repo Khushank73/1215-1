@@ -1,0 +1,20 @@
+.kushank{
+    padding-left: 20%;
+    padding-top: 7%;
+    border-radius: 25px;
+    border: white;
+    height: fit-content;
+    
+    
+}
+body{
+    background-color: black;
+}
+.header{
+    color: white;
+    text-align: center;
+    font-size: 500%;
+    font-weight: bolder;
+
+}
+

@@ -1,0 +1,11 @@
+Pseudo classes--CSS
+html video playing tag
+
+cursor on photo video plays
+Projects--
+	maths quiz
+	colour palette
+img 50 50 hover video plays
+
+
+
